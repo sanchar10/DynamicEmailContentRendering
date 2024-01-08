@@ -1,0 +1,18 @@
+{
+  "recommendations": [
+    {
+      "Date": "25 Jan 2024",
+      "Time": "7:30AM – 5:15PM (GMT-05:00)",
+      "Venue": "New York, NY 10001 United States",
+      "Title": "Microsoft AI Tour - New York",
+      "Link": "https://msevents.microsoft.com/event?id=2474845579&wt.mc_id=eventscatalog"
+    },
+    {
+      "Date": "31 Jan 2024",
+      "Time": "8:30AM – 5:00PM (GMT + 01:00)",
+      "Venue": "The Circle 02 Zurich Airport",
+      "Title": "AI Icebreaker Day",
+      "Link": "https://msevents.microsoft.com/event?id=1491094278&wt.mc_id=eventscatalog"
+    }
+  ]
+}

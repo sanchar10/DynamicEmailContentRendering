@@ -1,0 +1,66 @@
+{
+  "imageCTA": "$.recommendations[*].Link",
+  "baseImage": {
+    "width": 300,
+    "height": 250,
+    "color": "#ADD8E6"
+  },
+  "imageRender": [
+    {
+      "type": "text",
+      "value": "$.recommendations[*].Date",
+      "fontType": "Arial",
+      "fontSize": "12px",
+      "textColor": "#000000",
+      "positionX": 10,
+      "positionY": 10,
+      "blockWidth": 280,
+      "blockHeight": 30
+    },
+    {
+      "type": "text",
+      "value": "$.recommendations[*].Time",
+      "fontType": "Times New Roman",
+      "fontSize": "14px",
+      "textColor": "#3366cc",
+      "positionX": 10,
+      "positionY": 40,
+      "blockWidth": 280,
+      "blockHeight": 30
+    },
+    {
+      "type": "text",
+      "value": "$.recommendations[*].Venue",
+      "fontType": "Verdana",
+      "fontSize": "12px",
+      "textColor": "#990000",
+      "positionX": 10,
+      "positionY": 70,
+      "blockWidth": 280,
+      "blockHeight": 60
+    },
+    {
+      "type": "text",
+      "value": "$.recommendations[*].Title",
+      "fontType": "Helvetica",
+      "fontSize": "16px",
+      "textColor": "#006600",
+      "positionX": 10,
+      "positionY": 130,
+      "blockWidth": 280,
+      "blockHeight": 60
+    },
+    {
+      "type": "button",
+      "value": "Registeration & Details",
+      "fontType": "Helvetica",
+      "fontSize": "16px",
+      "textColor": "#F5F5F5",
+      "buttonColor": "#00008B",
+      "positionX": 10,
+      "positionY": 200,
+      "blockWidth": 280,
+      "blockHeight": 30
+    }
+  ]
+}
